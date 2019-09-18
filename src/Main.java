@@ -12,7 +12,7 @@ public class Main {
             System.out.println(currentPurchase / bonusBound * bonusesPerBound);
         } else if (totalPurchases >= 1 && totalPurchases <= 15_000){
             bonusesPerBound = 50;
-            System.out.println(currentPurchase / bonusBound * bonusesPerBound);
+            System.out.println( currentPurchase / bonusBound * bonusesPerBound );
         }
     }
 }
